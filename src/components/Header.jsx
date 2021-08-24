@@ -1,8 +1,8 @@
 import React from 'react'
 import threeline from '../static/pictures/三條線icon.png'
 import logo from '../static/pictures/newyoutube.png'
-import search from '../static/pictures/搜尋icon.png'
-import microphone from '../static/pictures/麥克風icon.png'
+import search from '../static/pictures/搜尋.png'
+import microphone from '../static/pictures/搜尋麥克風.png'
 import other from '../static/pictures/其他icon.png'
 import more from '../static/pictures/更多icon.png'
 import user from '../static/pictures/用戶icon.jpg'
@@ -39,11 +39,11 @@ function Header() {
         <div className='right-logo'>
           <img src={more} alt=''/>
         </div>
-        <div>
+        <div className='login-group'>
           <div className='right-logo'>
             <img src={user} alt=''/>
-            <p>登入</p>
           </div>
+            <span>登入</span>
         </div>
       </div>
     </div>

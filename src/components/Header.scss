@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   height: 60px;
+  border-bottom: solid 1px #ccc;
   .left{
     display: flex;
     flex-direction: row;
@@ -12,12 +13,14 @@
       height: 40px;
       >img{
         height: 24px;
+        cursor: pointer;
       }
     }
     .logo{
       height: 56px;
       >img{
         height: 56px;
+        cursor: pointer;
       }
     }
   }
@@ -28,20 +31,32 @@
     height: 56px;
     .search-group{
       height: 26px;
+      display: flex;
     }
     .search-input{
       height: 32px;
+      display: flex;
     }
     .search-logo{
       height: 32px;
+
       >img{
-        height: 20px;
+        padding: 0 10px ;
+        background-color: #cccccc;
+        border-radius: 2px;
+        border-top: solid 1px ;
+        border-right: solid 1px ;
+        border-bottom: solid 1px ;
+        height: 30px;
+        cursor: pointer;
       }
     }
     .microphone-logo{
       height: 40px;
+      margin-left: 8px;
       >img{
-        height: 24px;
+        height: 32px;
+        cursor: pointer;
       }
     }
   }
@@ -50,10 +65,15 @@
     flex-direction: row;
     align-items: center;
     height: 56px;
+    .login-group{
+      height: 40px;
+      cursor: pointer;
+    }
     .right-logo{
       height: 40px;
       >img{
         height: 24px;
+        cursor: pointer;
       }
     }
 
